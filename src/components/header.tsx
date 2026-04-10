@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { FaHome, FaPlus, FaUsers, FaSearch, FaBell, FaUser } from "react-icons/fa" 
+import { FaHome, FaPlus, FaUsers, FaSearch, FaBell, FaUser } from "react-icons/fa"
 
 
 export function Header() {
@@ -51,8 +51,9 @@ export function Header() {
                 <FaHome className="mr-2" size={15} /> Inicio
             </Link>
         </li>
+        
         <li className="inline-block px-10 py-2 bg-linear-to-r from-blue-600 to-blue-300 text-white cursor-pointer hover:from-blue-700 hover:to-blue-400 rounded mr-2">
-            <Link href="/novo-cadastro" className="text-white no-underline flex items-center">
+            <Link href="/cadastro" className="text-white no-underline flex items-center">
                 <FaPlus className="mr-2" size={15} /> Novo Cadastro
             </Link>
         </li>
